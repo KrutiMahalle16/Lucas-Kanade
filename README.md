@@ -38,3 +38,16 @@ The **Lucas-Kanade** method is a differential technique for optical flow estimat
 - Output visualized and optionally saved
 
 ---
+---
+
+## 📷 Sample Output
+
+The project outputs a video showing motion vectors for selected keypoints across frames, highlighting how features move through time in the video.
+
+---
+
+## ✅ Conclusion
+
+This project is a practical implementation of the Lucas-Kanade algorithm for optical flow, useful in motion tracking, video analysis, and robotics applications. It provides a foundational understanding of temporal motion estimation in computer vision.
+
+---
