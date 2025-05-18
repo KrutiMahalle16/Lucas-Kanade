@@ -11,3 +11,10 @@ This project implements the **Lucas-Kanade** method to detect and track optical 
 The **Lucas-Kanade** method is a differential technique for optical flow estimation. It assumes that the flow is essentially constant in a local neighborhood of the pixel under consideration. It works well for small and consistent motion between frames.
 
 ---
+## 🛠️ Technologies Used
+
+- Python 3.x
+- OpenCV (cv2)
+- NumPy
+
+---
