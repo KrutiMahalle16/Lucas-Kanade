@@ -18,3 +18,23 @@ The **Lucas-Kanade** method is a differential technique for optical flow estimat
 - NumPy
 
 ---
+---
+
+## 🔄 Method Overview
+
+1. Read input video frame-by-frame.
+2. Convert frames to grayscale.
+3. Detect good features to track using `cv2.goodFeaturesToTrack()`.
+4. Use `cv2.calcOpticalFlowPyrLK()` to compute motion vectors.
+5. Draw optical flow tracks to visualize movement.
+
+---
+
+## 🎯 Features
+
+- Corner detection using Shi-Tomasi method
+- Optical flow tracking with pyramidal Lucas-Kanade
+- Overlay of motion vectors on video frames
+- Output visualized and optionally saved
+
+---
